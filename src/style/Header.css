@@ -1,0 +1,36 @@
+.contact-info p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.contact-info span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* تكبير الاسم */
+.contact-info p:first-child span {
+  font-size: 1.6rem;
+  color: #222;
+}
+
+/* الـ Summary */
+.summary {
+  font-size: 1.05rem;
+  color: #555;
+  margin-top: 1rem;
+}
+
+/* Responsive تعديل */
+@media (max-width: 600px) {
+  /* أخفي السُمري */
+  .summary {
+    display: none;
+  }
+
+  /* كبر الاسم على الموبايل */
+  .contact-info p:first-child span {
+    font-size: 2rem;
+  }
+}

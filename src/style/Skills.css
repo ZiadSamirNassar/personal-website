@@ -1,0 +1,50 @@
+.skills {
+    padding: 2rem 1rem;
+    background-color: #fefefe;
+  }
+  
+  .skills h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .skill-partition {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .skill-partition > div {
+    min-width: 180px;
+    flex: 1;
+  }
+  
+  .skill-partition h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .skill-partition ul {
+    padding-left: 1.2rem;
+    list-style: disc;
+  }
+  
+  @media (max-width: 600px) {
+    .skill-partition {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .skill-partition > div {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .skill-partition ul {
+      text-align: left;
+    }
+  }
+  
